@@ -1,5 +1,5 @@
 {
-  "name": "event",
+  "name": "diyoevent",
   "version": "1.0.0",
   "description": "订阅 发布模式的自我编写。。",
   "main": "dist/dye.umd.js",
