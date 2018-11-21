@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <script type="text/javascript" src="../dist/dye.umd.js"></script>
+  </head>
+  <body>
+    <script type="text/javascript">
+      var dye = Dye('dinglei');
+
+      // 测试不同 名字的触发过程
+      // dye.listen("click",function(){
+      //   window.alert("click trigger");
+      // });
+
+      // window.setInterval(function(){
+      //   dye.trigger("click");
+      // },5000);
+      //
+
+      // 测试once
+      // 
+      // test.once("dinglei",function(){
+      //   window.alert("hahahha");
+      // })
+      // window.setInterval(function(){
+      //   test.trigger("dinglei");
+      // },5000)
+      // 测试once
+      
+
+      // 测试先remove
+      // var handler = function(){
+      //   window.alert("hahahha");
+      // }
+
+      // test.once("dinglei",handler);
+      // test.remove("dinglei",handler);
+      // window.setInterval(function(){
+      //   test.trigger("dinglei");
+      // },5000)
+      // 测试先remove
+
+      // 测试先 trigger 再 listen
+      // test.trigger("dinglei");
+      //   window.setTimeout(function(){
+      //     test.listen("dinglei",function(){
+      //       window.alert("hahahha");
+      //     });
+      //   },5000);
+      // 测试先 trigger 再 listen
+
+     // 测试通过
+        
+    </script>
+  </body>
+</html>
